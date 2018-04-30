@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/style-mobile.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+
+    <section id="bannerTopo">
+        <div class="col-xs-3 col-sm-6 col-md-8">
+
+            <div class="navbar navbar-default" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" onclick="openNav()">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand hidden-xs" href="#">
+                        <img src="./assets/images/logo.svg" class="img-responsive" alt="Image">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div id="menuMobile" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn visible-xs" onclick="closeNav()">&times;</a>
+                    <a class="navbar-brand  visible-xs" href="#">
+                            <img src="./assets/images/logo.svg" class="img-responsive" alt="Image">
+                        </a>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#box_sobre">Sobre a LTX</a>
+                        </li>
+                        <li>
+                            <a href="#">Features</a>
+                        </li>
+                        <li>
+                            <a href="#">Readmap</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </div>
+
+
+        
+
+        <div class="col-xs-9 col-sm-6 col-md-4">
+            <ul class="lists">
+                <li>
+                    <a href="#">
+                        <img src="./assets/images/facebook_icon.svg" class="facebook-icon" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/images/twitter_icon.svg" class="twitter-icon" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/images/linkedin_icon.svg" class="linkedin-icon" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/images/instagram_icon.svg" class="instagram-icon" alt="Image">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+
+
+        <!--Component text banner-->
+        <div class="container box_banner">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
+                <img src="./assets/images/logo.svg" class="visible-xs logo" width="40" alt="Image">
+                <h1>Faça parte da revolução na negociação de criptomoedas</h1>
+                <a href="" class="btltx-default">Visualiar Exchange</a>
+            </div>
+        </div>
+
+        <!--Component newsletter-->
+        <div class="container box_newsletter">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                <strong>PRÉ-CADASTRO</strong>
+                <h2>Reserve sua posição e fique por dentro das novidades inserindo seu e-mail abaixo</h2>
+
+                <div class="input-group line-form">
+                    <input type="text" class="form-control input-lg newsForm" id="exampleInputAmount" placeholder="Digite seu email">
+                    <span class="input-group-btn">
+                        <input type="submit" class="btltx-default" value="Enviar" />
+                    </span>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="box_sobre" class='box_sobre'>
+
+        <div class="container box_newsletter_contener">
+            <div class='col-xs-12 col-sm-8 col-sm-offset-2 text-center'>
+                <strong>SOBRE ALTX</strong>
+                <h2>Eliminamos a complexidade</h2>
+                <p class='col-xs-12 col-sm-10 col-sm-offset-1 text-center first'>Fundamos a LTX para levar a melhor experiência ao mercado de negociação de criptomoedas.
+                </p>
+                <p class='col-xs-12 col-sm-12 text-center'>
+                    Nosso conhecimento em criptoeconomia nos mercados financeiros do Brasil e América Latina nos deu a expertise necessária para
+                    entender e trabalhar nas maiores necessidades dos usuários que ainda não foram atendidas.
+                </p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section id="facilidades">
+
+        <div class="container box_newsletter_contener_facilidades">
+            <div class='col-xs-12 col-sm-8 col-sm-offset-2 text-center'>
+                <strong>FEATURES</strong>
+                <h2>Entregamos facilidades</h2>
+                <span>
+                    As funcionalidades da plataforma ltx foram projetadas sempre com foco na boa experiência do usuário, desempenho, capacidade,
+                    disponibilidade, excelência operacional e suporte aos nossos clientes.
+                </span>
+            </div>
+
+
+            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                <div class="service-box mt-5 mx-auto">
+                    <h3 class="mb-3 bordafacilidades">Segurança efetiva</h3>
+                    <p class="text-muted mb-0 bordafacilidades">As funcionalidades da plataforma ltx foram projetadas sempre com foco na boa experiência do usuário e
+                        desempenho.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                <div class="service-box mt-5 mx-auto">
+                    <h3 class="mb-3 bordafacilidades">Motor da Exchange</h3>
+                    <p class="text-muted mb-0 bordafacilidades">As funcionalidades da plataforma ltx foram projetadas sempre com foco na boa experiência do usuário e
+                        desempenho.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                <div class="service-box mt-5 mx-auto">
+                    <h3 class="mb-3 bordafacilidades">Suporte Real time</h3>
+                    <p class="text-muted mb-0 bordafacilidades">As funcionalidades da plataforma ltx foram projetadas sempre com foco na boa experiência do usuário e
+                        desempenho.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                <div class="service-box mt-5 mx-auto">
+                    <h3 class="mb-3 bordafacilidades">Rápida liquidez</h3>
+                    <p class="text-muted mb-0 bordafacilidades">As funcionalidades da plataforma ltx foram projetadas sempre com foco na boa experiência do usuário e
+                        desempenho.
+                    </p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <section id="Roadmap">
+
+        <div class="container box_newsletter_contener_roadmap">
+            <div class='col-xs-12 col-sm-8 col-sm-offset-2 text-center'>
+                <strong>PRODUTO</strong>
+                <h2>Nosso roadmap</h2>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-7 col-md-7 box-roadmap">
+                    <div class="line-right">
+                        <h3>Pré-cadastro</h3>
+                        <strong>15/05/18 a 05/06/18</strong>
+                        <p>Disponibilizaremos a nossa Exchange para que o público conheça e consiga fazer o pré-cadastro para
+                            o lançamento.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-7 col-md-7 col-sm-offset-5 col-md-offset-5 box-roadmap-2">
+                    <div class="line-left">
+                        <h3>Lançamento</h3>
+                        <strong>06/06/18</strong>
+                        <p>Disponibilizaremos a nossa Exchange para que o público conheça e consiga fazer o pré-cadastro para
+                            o lançamento.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <section id='itx'>
+
+        <div class="container box_newsletter_contener_itx">
+            <a class='col-xs-12 col-sm-12'>
+                <img src="./assets/images/logo.svg" class="" alt="Image">
+            </a>
+
+            <div class='col-xs-12 col-sm-8 '>
+                <h2>Faça parte da revolução na negociação de criptomoedas</h2>
+                <p>ltx oferece a instituições e profissionais a possibilidade de negociar uma variedade de moedas digitais,
+                    como Bitcoin, Ethereum e mais, em uma bolsa de valores totalmente regulamentada com base no Brasil.</p>
+            </div>
+            <div class='col-xs-12 col-sm-4' style="
+                            margin-top: 50px;
+                        ">
+                <a href="" class="btltx-default">Visualiar Exchange</a>
+            </div>
+
+
+            <div>
+                <div class="col-xs-12 col-sm-12 text-center box_newsletter">
+                    <a href="" class="btltx-footer">PRIVACY POLICY</a>
+                    <a href="" class="btltx-footer">TERMS & CONDITIONS</a>
+                    <a href="" class="btltx-footer">CODE OF CONDUCT</a>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-12 text-center box_footer">
+                    <h2>©2018 ltx - contato@ltx.com</h2>
+                    <div class='line_footer'></div>
+                    <div class="text-center">
+                        <ul class="nav navbar-nav" id="footer-social">
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/images/facebook_icon.svg" class="facebook-icon" alt="Image">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/images/twitter_icon.svg" class="twitter-icon" alt="Image">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/images/linkedin_icon.svg" class="linkedin-icon" alt="Image">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./assets/images/instagram_icon.svg" class="instagram-icon" alt="Image">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <!-- jQuery Bootstrap JavaScript-->
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/menu.js"></script>
+
+</body>
+
+</html>
